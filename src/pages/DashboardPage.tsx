@@ -6,7 +6,7 @@ import Button from "../components/ui/Button";
 import "../styles/dashboard.css";
 
 function DashboardPage() {
-  const { employees, status, error, retry } = useEmployees();
+  const { employees, status, retry } = useEmployees();
 
   const stats = useMemo(() => {
     const departments = new Set(
