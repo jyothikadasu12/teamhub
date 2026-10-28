@@ -62,4 +62,5 @@ export function validateFile(file: File): FileValidationResult {
     valid: true,
     error: null,
   };
+  
 }
